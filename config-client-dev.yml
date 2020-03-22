@@ -39,4 +39,4 @@ eureka:
     # 设置拉取服务注册信息时间（单位：30秒）
     registry-fetch-interval-seconds: 5
     # 如果要迅速获取服务注册状态，可以缩小该值。比如：getaway网关接口启动需要马上调用
-sang: guoxiaopeng
+sang: guoxiaopeng1
