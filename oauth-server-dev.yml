@@ -4,10 +4,10 @@ spring:
   application:
     name: oauth-server
   datasource:
-    url: jdbc:mysql://localhost:3306/oauth_db
+    url: jdbc:mysql://localhost:3306/oauth_db?serverTimezone=UTC&useUnicode=true&charaterEncoding=utf-8&useSSL=false
     username: root
     password: root
-    driver-class-name: com.mysql.jdbc.Driver?serverTimezone=UTC&useUnicode=true&charaterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
 
   jpa:
     show-sql: true
