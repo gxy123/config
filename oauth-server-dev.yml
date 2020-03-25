@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: oauth-server
+  datasource:
+    url: jdbc:mysql://localhost:3306/oauth_db
+    username: root
+    password: root
+  jpa:
+    show-sql: true
 
   rabbitmq:
     host: localhost
