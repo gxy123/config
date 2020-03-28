@@ -25,3 +25,4 @@ eureka:
 skipAuthUrls: login,register/df
 black_list: addd,eee
 
+
