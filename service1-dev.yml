@@ -15,7 +15,7 @@ eureka:
     # 指定此实例的ip
     #ip-address: 111.111.111.111
     # 是否显示IP地址，默认false
-    #prefer-ip-address: true
+    prefer-ip-address: false
     hostname: localhost
     # 自定义实例ID，在eureka中注册的唯一id
     instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
