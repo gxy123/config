@@ -19,6 +19,7 @@ spring:
     password: guest
 mybatis:
   type-aliases-package: com.example.oauth2_server.dao
+  mapper-locations: classpath:mapper/**
 
 eureka:
   instance:
