@@ -51,3 +51,4 @@ spring:
       max-request-size: 104857600
 mybatis:
   mapperLocations: classpath:mapper/**/*.xml
+  
